@@ -15,9 +15,21 @@ public class Producto {
 	//constructor 1
 		public Producto () {
 			
-		}		
+		}
+
+		//constructor 2 (source- generate constructor using field
+		
+		public Producto(int id, String nombre, String descripcion, String imagen, Double precio) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.imagen = imagen;
+		this.precio = precio;
+	}		
 	
-	//constructor 2
+		//metodo
+		
 		
 	
 	
